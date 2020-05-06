@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 
 @Component
 class MyFilter extends ZuulFilter {
-
+        //这是一个拦截器
     private static Logger log = LoggerFactory.getLogger(MyFilter.class);
     @Override
     public String filterType() {
